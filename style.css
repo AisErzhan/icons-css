@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #183153;
+}
+.container {
+  position: absolute;
+  width: 700px;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.box,
+i {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  line-height: 100%;
+  text-align: center;
+  transition: 1s;
+  font-size: 100px;
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+ul li {
+  list-style: none;
+}
+.fab,
+.fas,
+.fa {
+  transition: 0.5s;
+}
+.fa-instagram {
+  color: #cc41d9;
+}
+.fa-instagram:hover {
+  color: white;
+  background-color: #cc41d9;
+  box-shadow: 2px 2px 2px white, 0 0 50px #cc41d9;
+}
+.fa-whatsapp {
+  color: green;
+}
+.fa-whatsapp:hover {
+  color: white;
+  box-shadow: 2px 2px 2px white, 0 0 50px green;
+  background-color: green;
+}
+.fa-telegram-plane {
+  color: rgb(0, 119, 255);
+}
+.fa-telegram-plane:hover {
+  color: white;
+  box-shadow: 2px 2px 2px white, 0 0 50px rgb(0, 119, 255);
+  background-color: rgb(0, 119, 255);
+}
+.fa-phone-square {
+  color: green;
+}
+.fa-phone-square:hover {
+  color: white;
+  box-shadow: 2px 2px 2px white, 0 0 50px green;
+  background-color: green;
+}
+.fa-at {
+  color: orangered;
+}
+.fa-at:hover {
+  color: white;
+  box-shadow: 2px 2px 2px white, 0 0 50px orangered;
+  background-color: orangered;
+}
+@media screen and (max-width: 726px) {
+  .container {
+    position: absolute;
+    width: 400px;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .box,
+i {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  line-height: 100%;
+  text-align: center;
+  transition: 1s;
+  font-size: 50px;
+}
+}
+
